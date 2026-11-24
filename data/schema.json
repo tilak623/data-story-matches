@@ -1,0 +1,727 @@
+{
+  "rowCount": 636,
+  "columnCount": 18,
+  "columns": [
+    {
+      "name": "id",
+      "type": "numeric",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 636,
+      "sampleValues": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "stats": {
+        "min": 1,
+        "max": 636,
+        "mean": 318.5,
+        "median": 318.5,
+        "stdDev": 183.6,
+        "q1": 160,
+        "q3": 478,
+        "outlierCount": 0
+      }
+    },
+    {
+      "name": "season",
+      "type": "numeric",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 10,
+      "sampleValues": [
+        2017,
+        2017,
+        2017,
+        2017,
+        2017
+      ],
+      "stats": {
+        "min": 2008,
+        "max": 2017,
+        "mean": 2012.49,
+        "median": 2012,
+        "stdDev": 2.77,
+        "q1": 2010,
+        "q3": 2015,
+        "outlierCount": 0
+      }
+    },
+    {
+      "name": "city",
+      "type": "text",
+      "missingCount": 7,
+      "missingPercentage": 1,
+      "uniqueCount": 30,
+      "sampleValues": [
+        "Hyderabad",
+        "Pune",
+        "Rajkot",
+        "Indore",
+        "Bangalore"
+      ]
+    },
+    {
+      "name": "date",
+      "type": "text",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 450,
+      "sampleValues": [
+        "5/4/2017",
+        "6/4/2017",
+        "7/4/2017",
+        "8/4/2017",
+        "8/4/2017"
+      ]
+    },
+    {
+      "name": "team1",
+      "type": "categorical",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 14,
+      "sampleValues": [
+        "Sunrisers Hyderabad",
+        "Mumbai Indians",
+        "Gujarat Lions",
+        "Rising Pune Supergiant",
+        "Royal Challengers Bangalore"
+      ],
+      "distribution": [
+        {
+          "label": "Mumbai Indians",
+          "count": 82,
+          "percentage": 13
+        },
+        {
+          "label": "Kings XI Punjab",
+          "count": 77,
+          "percentage": 12
+        },
+        {
+          "label": "Chennai Super Kings",
+          "count": 77,
+          "percentage": 12
+        },
+        {
+          "label": "Royal Challengers Bangalore",
+          "count": 70,
+          "percentage": 11
+        },
+        {
+          "label": "Kolkata Knight Riders",
+          "count": 68,
+          "percentage": 11
+        },
+        {
+          "label": "Delhi Daredevils",
+          "count": 63,
+          "percentage": 10
+        },
+        {
+          "label": "Rajasthan Royals",
+          "count": 54,
+          "percentage": 8
+        },
+        {
+          "label": "Sunrisers Hyderabad",
+          "count": 46,
+          "percentage": 7
+        },
+        {
+          "label": "Deccan Chargers",
+          "count": 43,
+          "percentage": 7
+        },
+        {
+          "label": "Pune Warriors",
+          "count": 20,
+          "percentage": 3
+        }
+      ]
+    },
+    {
+      "name": "team2",
+      "type": "categorical",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 14,
+      "sampleValues": [
+        "Royal Challengers Bangalore",
+        "Rising Pune Supergiant",
+        "Kolkata Knight Riders",
+        "Kings XI Punjab",
+        "Delhi Daredevils"
+      ],
+      "distribution": [
+        {
+          "label": "Delhi Daredevils",
+          "count": 84,
+          "percentage": 13
+        },
+        {
+          "label": "Royal Challengers Bangalore",
+          "count": 82,
+          "percentage": 13
+        },
+        {
+          "label": "Kolkata Knight Riders",
+          "count": 80,
+          "percentage": 13
+        },
+        {
+          "label": "Mumbai Indians",
+          "count": 75,
+          "percentage": 12
+        },
+        {
+          "label": "Kings XI Punjab",
+          "count": 71,
+          "percentage": 11
+        },
+        {
+          "label": "Rajasthan Royals",
+          "count": 64,
+          "percentage": 10
+        },
+        {
+          "label": "Chennai Super Kings",
+          "count": 54,
+          "percentage": 8
+        },
+        {
+          "label": "Deccan Chargers",
+          "count": 32,
+          "percentage": 5
+        },
+        {
+          "label": "Sunrisers Hyderabad",
+          "count": 30,
+          "percentage": 5
+        },
+        {
+          "label": "Pune Warriors",
+          "count": 26,
+          "percentage": 4
+        }
+      ]
+    },
+    {
+      "name": "toss_winner",
+      "type": "categorical",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 14,
+      "sampleValues": [
+        "Royal Challengers Bangalore",
+        "Rising Pune Supergiant",
+        "Kolkata Knight Riders",
+        "Kings XI Punjab",
+        "Royal Challengers Bangalore"
+      ],
+      "distribution": [
+        {
+          "label": "Mumbai Indians",
+          "count": 85,
+          "percentage": 13
+        },
+        {
+          "label": "Kolkata Knight Riders",
+          "count": 78,
+          "percentage": 12
+        },
+        {
+          "label": "Delhi Daredevils",
+          "count": 72,
+          "percentage": 11
+        },
+        {
+          "label": "Royal Challengers Bangalore",
+          "count": 70,
+          "percentage": 11
+        },
+        {
+          "label": "Kings XI Punjab",
+          "count": 68,
+          "percentage": 11
+        },
+        {
+          "label": "Chennai Super Kings",
+          "count": 66,
+          "percentage": 10
+        },
+        {
+          "label": "Rajasthan Royals",
+          "count": 63,
+          "percentage": 10
+        },
+        {
+          "label": "Deccan Chargers",
+          "count": 43,
+          "percentage": 7
+        },
+        {
+          "label": "Sunrisers Hyderabad",
+          "count": 35,
+          "percentage": 6
+        },
+        {
+          "label": "Pune Warriors",
+          "count": 20,
+          "percentage": 3
+        }
+      ]
+    },
+    {
+      "name": "toss_decision",
+      "type": "categorical",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 2,
+      "sampleValues": [
+        "field",
+        "field",
+        "field",
+        "field",
+        "bat"
+      ],
+      "distribution": [
+        {
+          "label": "field",
+          "count": 363,
+          "percentage": 57
+        },
+        {
+          "label": "bat",
+          "count": 273,
+          "percentage": 43
+        }
+      ]
+    },
+    {
+      "name": "result",
+      "type": "categorical",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 3,
+      "sampleValues": [
+        "normal",
+        "normal",
+        "normal",
+        "normal",
+        "normal"
+      ],
+      "distribution": [
+        {
+          "label": "normal",
+          "count": 626,
+          "percentage": 98
+        },
+        {
+          "label": "tie",
+          "count": 7,
+          "percentage": 1
+        },
+        {
+          "label": "no result",
+          "count": 3,
+          "percentage": 0
+        }
+      ]
+    },
+    {
+      "name": "dl_applied",
+      "type": "numeric",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 2,
+      "sampleValues": [
+        0,
+        0,
+        0,
+        0,
+        0
+      ],
+      "stats": {
+        "min": 0,
+        "max": 1,
+        "mean": 0.03,
+        "median": 0,
+        "stdDev": 0.16,
+        "q1": 0,
+        "q3": 0,
+        "outlierCount": 16
+      }
+    },
+    {
+      "name": "winner",
+      "type": "categorical",
+      "missingCount": 3,
+      "missingPercentage": 0,
+      "uniqueCount": 14,
+      "sampleValues": [
+        "Sunrisers Hyderabad",
+        "Rising Pune Supergiant",
+        "Kolkata Knight Riders",
+        "Kings XI Punjab",
+        "Royal Challengers Bangalore"
+      ],
+      "distribution": [
+        {
+          "label": "Mumbai Indians",
+          "count": 92,
+          "percentage": 15
+        },
+        {
+          "label": "Chennai Super Kings",
+          "count": 79,
+          "percentage": 12
+        },
+        {
+          "label": "Kolkata Knight Riders",
+          "count": 77,
+          "percentage": 12
+        },
+        {
+          "label": "Royal Challengers Bangalore",
+          "count": 73,
+          "percentage": 12
+        },
+        {
+          "label": "Kings XI Punjab",
+          "count": 70,
+          "percentage": 11
+        },
+        {
+          "label": "Rajasthan Royals",
+          "count": 63,
+          "percentage": 10
+        },
+        {
+          "label": "Delhi Daredevils",
+          "count": 62,
+          "percentage": 10
+        },
+        {
+          "label": "Sunrisers Hyderabad",
+          "count": 42,
+          "percentage": 7
+        },
+        {
+          "label": "Deccan Chargers",
+          "count": 29,
+          "percentage": 5
+        },
+        {
+          "label": "Gujarat Lions",
+          "count": 13,
+          "percentage": 2
+        }
+      ]
+    },
+    {
+      "name": "win_by_runs",
+      "type": "numeric",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 86,
+      "sampleValues": [
+        35,
+        0,
+        0,
+        0,
+        15
+      ],
+      "stats": {
+        "min": 0,
+        "max": 146,
+        "mean": 13.68,
+        "median": 0,
+        "stdDev": 23.89,
+        "q1": 0,
+        "q3": 20,
+        "outlierCount": 47
+      }
+    },
+    {
+      "name": "win_by_wickets",
+      "type": "numeric",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 11,
+      "sampleValues": [
+        0,
+        7,
+        10,
+        6,
+        0
+      ],
+      "stats": {
+        "min": 0,
+        "max": 10,
+        "mean": 3.37,
+        "median": 4,
+        "stdDev": 3.42,
+        "q1": 0,
+        "q3": 7,
+        "outlierCount": 0
+      }
+    },
+    {
+      "name": "player_of_match",
+      "type": "text",
+      "missingCount": 3,
+      "missingPercentage": 0,
+      "uniqueCount": 201,
+      "sampleValues": [
+        "Yuvraj Singh",
+        "SPD Smith",
+        "CA Lynn",
+        "GJ Maxwell",
+        "KM Jadhav"
+      ]
+    },
+    {
+      "name": "venue",
+      "type": "text",
+      "missingCount": 0,
+      "missingPercentage": 0,
+      "uniqueCount": 35,
+      "sampleValues": [
+        "Rajiv Gandhi International Stadium, Uppal",
+        "Maharashtra Cricket Association Stadium",
+        "Saurashtra Cricket Association Stadium",
+        "Holkar Cricket Stadium",
+        "M Chinnaswamy Stadium"
+      ]
+    },
+    {
+      "name": "umpire1",
+      "type": "text",
+      "missingCount": 1,
+      "missingPercentage": 0,
+      "uniqueCount": 44,
+      "sampleValues": [
+        "AY Dandekar",
+        "A Nand Kishore",
+        "Nitin Menon",
+        "AK Chaudhary",
+        "A Deshmukh"
+      ]
+    },
+    {
+      "name": "umpire2",
+      "type": "text",
+      "missingCount": 1,
+      "missingPercentage": 0,
+      "uniqueCount": 45,
+      "sampleValues": [
+        "NJ Llong",
+        "S Ravi",
+        "CK Nandan",
+        "C Shamshuddin",
+        "NJ Llong"
+      ]
+    },
+    {
+      "name": "umpire3",
+      "type": "text",
+      "missingCount": 636,
+      "missingPercentage": 100,
+      "uniqueCount": 0,
+      "sampleValues": []
+    }
+  ],
+  "correlations": [
+    {
+      "colA": "id",
+      "colB": "season",
+      "coefficient": 0.47
+    },
+    {
+      "colA": "win_by_runs",
+      "colB": "win_by_wickets",
+      "coefficient": -0.57
+    }
+  ],
+  "dataQualityScore": 80,
+  "qualityIssues": [
+    "Column 'umpire3' has 100% missing values"
+  ],
+  "insights": [
+    {
+      "id": "insight-max",
+      "type": "record_high",
+      "title": "Peak id",
+      "description": "Highest recorded id observed is 636 with a baseline average of 318.5.",
+      "highlightValue": 636,
+      "significance": "high"
+    },
+    {
+      "id": "insight-corr",
+      "type": "strong_correlation",
+      "title": "win_by_runs & win_by_wickets",
+      "description": "Reveals a inverse relationship (Pearson r = -0.57), demonstrating how changes in win_by_runs directly track win_by_wickets.",
+      "highlightValue": "r = -0.57",
+      "significance": "high"
+    },
+    {
+      "id": "insight-cat",
+      "type": "dominant_category",
+      "title": "Dominance in team1",
+      "description": "'Mumbai Indians' leads with 13% of all records (82 occurrences).",
+      "highlightValue": "13%",
+      "significance": "medium"
+    }
+  ],
+  "heroMetric": {
+    "giantNumber": "202.6K",
+    "unitOrPrefix": "",
+    "metricLabel": "Total Aggregated id",
+    "subHeadline": "Across 636 verified records",
+    "editorialHook": "From peak fluctuations to underlying structural distributions, discover the defining narrative inside this dataset."
+  },
+  "scrollyChapters": [
+    {
+      "step": 1,
+      "chapterTitle": "The Macro Picture",
+      "narrativeText": "The dataset encompasses 636 observations. Our primary measure, id, demonstrates an average level of 318.5 across the sample spectrum.",
+      "keyStat": "636 Records",
+      "focusColumn": "id",
+      "chartType": "bar",
+      "viewMode": "all"
+    },
+    {
+      "step": 2,
+      "chapterTitle": "Concentration of Impact",
+      "narrativeText": "When segmented by team1, a disproportionate share concentrates within 'Mumbai Indians', establishing the dominant benchmark.",
+      "keyStat": "13% Share",
+      "focusColumn": "team1",
+      "chartType": "bar",
+      "viewMode": "top5"
+    },
+    {
+      "step": 3,
+      "chapterTitle": "The Underlying Dynamics",
+      "narrativeText": "Cross-analyzing id against season exposes a coefficient of 0.47. This statistical signature confirms systematic co-movement between both dimensions.",
+      "keyStat": "r = 0.47",
+      "focusColumn": "season",
+      "chartType": "line",
+      "viewMode": "trend"
+    },
+    {
+      "step": 4,
+      "chapterTitle": "Strategic Takeaways",
+      "narrativeText": "By isolating the structural distribution, decision-makers can calibrate projections against verified historical evidence rather than intuition.",
+      "keyStat": "100% Grounded",
+      "focusColumn": "id",
+      "chartType": "bar",
+      "viewMode": "filtered"
+    }
+  ],
+  "recommendedVisualizations": [
+    {
+      "id": "viz-cat-bar",
+      "title": "id by team1",
+      "subtitle": "Distribution across prominent categorical segments",
+      "chartType": "bar",
+      "xAxisKey": "team1",
+      "yAxisKey": "id",
+      "description": "Compares performance and volume metrics across categorical partitions."
+    },
+    {
+      "id": "viz-scatter",
+      "title": "id vs season",
+      "subtitle": "Bivariate correlation and cluster mapping",
+      "chartType": "scatter",
+      "xAxisKey": "id",
+      "yAxisKey": "season",
+      "description": "Reveals clustering patterns and correlation trajectories."
+    }
+  ],
+  "designTheme": {
+    "id": "pudding-dark",
+    "name": "Editorial Obsidian",
+    "primary": "#10b981",
+    "accent": "#f43f5e",
+    "surface": "#0f172a",
+    "text": "#f8fafc",
+    "headingFont": "Playfair Display, serif",
+    "bodyFont": "Inter, sans-serif",
+    "tone": "editorial-dark"
+  },
+  "modelRecommendations": [
+    {
+      "id": "model-linear-id",
+      "name": "id forecast model",
+      "type": "linear_regression",
+      "targetColumn": "id",
+      "featureColumns": [
+        "season",
+        "dl_applied",
+        "win_by_wickets"
+      ],
+      "qualityScore": 54,
+      "summary": "Linear regression predicts id using the strongest numeric drivers in the dataset.",
+      "notes": [
+        "Average feature correlation strength: 0.17",
+        "Useful when you want a fast interpretable estimate for a continuous outcome."
+      ]
+    },
+    {
+      "id": "model-linear-season",
+      "name": "season forecast model",
+      "type": "linear_regression",
+      "targetColumn": "season",
+      "featureColumns": [
+        "id",
+        "win_by_runs",
+        "dl_applied"
+      ],
+      "qualityScore": 54,
+      "summary": "Linear regression predicts season using the strongest numeric drivers in the dataset.",
+      "notes": [
+        "Average feature correlation strength: 0.16",
+        "Useful when you want a fast interpretable estimate for a continuous outcome."
+      ]
+    },
+    {
+      "id": "model-classification-team1",
+      "name": "team1 classifier",
+      "type": "classification",
+      "targetColumn": "team1",
+      "featureColumns": [
+        "id",
+        "season",
+        "dl_applied"
+      ],
+      "qualityScore": 48,
+      "summary": "Classification estimates the most likely team1 bucket from the strongest numeric signals.",
+      "notes": [
+        "Dominant class share: 12.9%",
+        "This is ideal for segmenting records into discrete groups or outcomes."
+      ]
+    },
+    {
+      "id": "model-classification-team2",
+      "name": "team2 classifier",
+      "type": "classification",
+      "targetColumn": "team2",
+      "featureColumns": [
+        "id",
+        "season",
+        "dl_applied"
+      ],
+      "qualityScore": 48,
+      "summary": "Classification estimates the most likely team2 bucket from the strongest numeric signals.",
+      "notes": [
+        "Dominant class share: 13.2%",
+        "This is ideal for segmenting records into discrete groups or outcomes."
+      ]
+    }
+  ]
+}
